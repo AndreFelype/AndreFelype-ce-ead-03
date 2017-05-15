@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title> 
+			GERADOR DE TABUADAS
+		</title>
+		<link rel="shortcut icon" href=""/>
+		<style>
+		body {
+			margin: 0 auto;
+			width: 840px;
+			font-family: Calibri;
+		}
+		p {
+			text-align : center;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 align='center'>
+		  GERADOR DE TABUADAS
+		</h1>
+		<br>
+		<form action='saida.php' method='POST'>
+			<p> 
+				CRIAR TABUADAS A PARTIR DO NÚMERO: <input type='text' size='10' name='num_inicialtab' autofocus='true' required/> &nbsp; ATÉ: <input type='text' size='10' name='num_finaltab' required/>
+			</p>
+			<p> 
+				MULTIPLICANDO OS NÚMEROS DE: <input type='text' size='10' name='num_inicialmult' autofocus='true' required/> &nbsp; ATÉ: <input type='text' size='10' name='num_finalmult' required/>
+			</p>
+			<br>
+			<p class='botao'>
+				<input type='submit' name='gerar' value='GERAR TABUADA' style="width: 540px; height: 40px;">
+			</p>
+		</form>
+	</body>
+</html>
